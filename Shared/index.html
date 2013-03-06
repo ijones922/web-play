@@ -1,0 +1,36 @@
+<html>
+<head>
+<title>CSS GAME ENGINE</title>
+</head>
+<link rel="stylesheet" type="text/css" href="./ENGINE/engine-min.css" />
+<body onLoad="ENGINE.init('Psylocke');" onKeyPress="checkEnter(event)">
+
+<script src="./ENGINE/game-min.js"></script>
+<script src="./ENGINE/controls-min.js"></script>
+
+<div id="Player1_Tag"><div id="Psylocke"></div></div>
+<div id="Player2_Tag"><div id="Juggernaut"></div></div>
+<div id="Player3_Tag"><div id="Gambit"></div></div>
+<div id="Player4_Tag"><div id="Spiderman"></div></div>
+
+<div id="Player5_Tag"><div id="Venom"></div></div>
+<div id="Player6_Tag"><div id="Magneto"></div></div>
+<div id="Player7_Tag"><div id="Rogue"></div></div>
+<div id="Player8_Tag"><div id="Wolverine"></div></div>
+
+
+<div id="titleBar"></div>
+<div id="letters"><div class="float">Console :/</div><div class="float"><input id="command" name="command" type="text" onKeyPress="checkEnter(event)"/></div></div>
+<div id="console"></div>
+<div id="output"></div>
+<div id="threads">
+	<div id="thread_id_label" class="thread_char">Id:</div>
+	<div id="thread_count_label" class="thread_char">Threads:</div>
+    <br />
+    <div id="thread_ids" class="thread_char"></div>
+    <div id="thread_count" class="thread_char"></div>
+</div>
+<br />
+
+</body>
+</html>
