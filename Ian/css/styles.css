@@ -593,12 +593,6 @@ body {
     position: relative;
     top: -10px;
 }
-#pricing .price_wrapper.regular .header {
-    background: url("../img/chart1_small.png") no-repeat scroll 0 0 transparent;
-}
-#pricing .price_wrapper.pro .header {
-    background: url("../img/chart2_small.png") no-repeat scroll 0 0 transparent;
-}
 #testimonials .phrases_wrapper {
     padding-left: 0;
     padding-right: 0;
