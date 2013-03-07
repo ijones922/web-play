@@ -3,377 +3,457 @@
 <head>
 <meta charset="utf-8">
 <title>Web Playground</title>
+
+<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700' rel='stylesheet' type='text/css'>
+<link rel=stylesheet href="css/bootstrap-responsive.css">
 <link rel=stylesheet href="css/bootstrap.css">
 <link rel=stylesheet href="css/main.css">
-<link rel=stylesheet href="css/styles.css">
+<link rel=stylesheet href="css/prettyPhoto.css">
 
-<script type="text/javascript" src="js/bootstrap.min.js"></script>
-<script type="text/javascript" src="js/main.js"></script>
-<script type="text/javascript" src="js/theme.js"></script>
 </head>
 
 
 <body>
-    <a class="scrolltop" href="#" style="display: none;">
-        <span>up</span>
-    </a>
-    <!-- begins navbar -->
-	<div class="navbar navbar-fixed-top">
+   
+  
+    <!-- Navigation Bar -->
+    <div class="navbar navbar-inverse navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container">
-    		<a data-target=".nav-collapse" data-toggle="collapse" class="btn btn-navbar">
-	            <span class="icon-bar"></span>
-	            <span class="icon-bar"></span>
-	            <span class="icon-bar"></span>
-          	</a>
-          	<a href="index.html" data-section="body" class="brand scroller">
-                <img alt="logo" src="img/logo.png">
-            </a>
-		  	<div class="nav-collapse collapse">
-                <ul class="nav pull-right">
-                    <li><a data-section="#features" class="scroller" href="#">Features</a></li>
-                    <li><a data-section="#pricing" class="scroller" href="#">Pricing</a></li>
-                    <li><a data-section="#footer" class="scroller" href="#">Contact us</a></li>
-                    <li><a href="blog.html">Blog</a></li>
-                    <li class="dropdown">
-                        <a data-toggle="dropdown" class="dropdown-toggle" href="#">
-                            External Pages
-                            <b class="caret"></b>
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a href="features.html">Features</a></li>
-                            <li><a href="pricing.html">Pricing</a></li>
-                            <li><a href="portfolio.html">Portfolio</a></li>
-                            <li><a href="coming-soon.html">Coming Soon</a></li>
-                            <li><a href="aboutus.html">About us</a></li>
-                            <li><a href="contact.html">Contact us</a></li>
-                            <li><a href="faq.html">FAQ</a></li>
-                        </ul>
-                    </li>
-                </ul>
-	        </div>
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" href="#">Simple &amp; Flat</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
         </div>
       </div>
     </div>
-    <!-- ends navbar -->
 
-    <div id="hero">
+    <!-- Header Image and Logo -->
+    <div id="headerwrap">
+        <header class="clearfix">
+            <div class="span12">
+                <img src="img/logo.png">
+                <h1>ONE PAGE</h1>
+                <h1>HTML THEME</h1>
+            </div>
+        </header>
+    </div>
+    
+    <!-- Welcome -->
+    <div id="welcomewrap">
+        <header class="clearfix">
+            <div class="container">
+            <div class="span12">
+                <h2>Welcome to our site. This theme was created using Bootstrap 2.3.0</h2>
+            </div>
+            </div>
+        </header>
+    </div>
+
+    <!-- Section Services Begins -->
+    <section id="services"><br><br></section>
+
+    <div id="servicewrap">
         <div class="container">
-            <!-- starts carousel -->
-            <div class="row animated fadeInDown">
-                <div class="span12">
-                    <div class="carousel slide" id="myCarousel">
-                        <!-- carousel items -->
+            <h2>OUR SERVICES</h2>
+            <br>
+            <div class="row">
+                <div class="span3">
+                    <div class="mask">
+                        <img src="img/step1.png" alt="">
+                        <h4>Inquire</h4>
+                        <p>We begin with a simple question: Why does your business exist? Why create this brand, app, holographic guide to the galaxy? We explore your competition and what sets you apart.</p>
+                    </div>
+                </div><!-- span3 -->
+                
+                <div class="span3">
+                    <div class="mask">
+                        <img src="img/step2.png" alt="">
+                        <h4>Plan</h4>
+                        <p>A project's success hinges upon a well-conceived plan. We create a strategic plan that outlines what we will make together, how make the most of your budget and what success looks like.</p>
+                    </div>
+                </div><!-- span3 -->
+                
+                <div class="span3">
+                    <div class="mask">
+                        <img src="img/step3.png" alt="">
+                        <h4>Design</h4>
+                        <p>This is when the sketching begins. The design process never begins in front of the computer. We start loose, identify concepts, iterate, and refine them through regular dialogue with you.</p>
+                    </div>
+                </div><!-- span3 -->
+
+                <div class="span3">
+                    <div class="mask">
+                        <img src="img/step4.png" alt="">
+                        <h4>Launch</h4>
+                        <p>For us, this means involvement in every detail of production and fulfillment for your project. We continue to stay in touch, and closely monitor our babys success out in the wild.</p>
+                    </div>
+                </div><!-- span3 -->
+            </div><!-- row -->
+        </div><!-- container -->
+    </div><!-- servicewrap -->
+
+    <!-- Introduction Text and Responsive Image -->
+    <div class="container">
+        <br>
+        <br>
+        <hr>
+        <div class="row">
+            <br>
+            <br>
+            <div class="span6">
+                <h1>WE ARE SIMPLE</h1>
+                <h2>We define and design customer experiences in the digital channel. Simple &amp; Flat is a nationally-recognised integrated marketing agency based in Madrid, Spain.</h2>
+                <p>Our aim is simple. We want to impress you. So we listen. We research your industry, your competitors and your market. We make sure we understand your unique challenges and pressures. And then we bring our expertise to the table, designing and delivering compelling, first-class solutions that meet your specific requirements.</p>
+            </div><!-- span6 -->
+            
+            <div class="span6">
+                <img src="img/responsive.png" alt="">
+            </div><!-- span6 -->
+        </div><!-- row -->
+        <br>
+        <br>
+    </div> <!-- /container -->
+    
+    <!-- Single Item Image -->
+    <div id="example">
+        <div class="container">
+            <br>
+            <h2>Creators of the best on the web</h2>
+            <p>We work as hard as possible to create awesome sites and applications.</p>
+            <img src="img/example.png" alt="">
+        </div><!-- container -->
+    </div><!-- example -->
+        <br>
+        <br>
+    
+    <!-- About Section Begins -->       
+        <section id="about"><br><br></section>
+        <div id="aboutwrap">
+            <div class="container">
+                <h2>ABOUT US</h2>
+                <br>
+                <div class="row">
+                    <div class="span4">
+                        <img src="img/logo.png" alt="">
+                        <h3>Meet the founders of Simple &amp; Flat design agency.</h3>
+                        <h4>The agency was founded in April 2010. The two founders have more than 10 years of experience on the field.</h4>
+                    </div><!-- span4 -->
+                    
+                    <div class="span4">
+                        <div class="about_item">
+                            <div class="about_item_center">
+                                <img src="img/photo1.jpg" alt="">
+                                <div class="clear"></div>
+                                <h3>Marcel Newman</h3>
+                                <p>Marcel is a talented illustrator and designer, a big Star Wars fan and loves exploring new ways to push the boundaries on projects. YouÃ¢â‚¬â„¢ll often find him tinkering on his iPad whilst enjoying a pint of fine real ale.</p>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                            </div>
+                        </div><!-- about_item -->
+                    </div><!-- span4 -->
+                    
+                    <div class="span4">
+                        <div class="about_item">
+                            <div class="about_item_center">
+                                <img src="img/photo2.jpg" alt="">
+                                <div class="clear"></div>
+                                <h3>Jane Doe</h3>
+                                <p>Jane  is a sharp designer and UI fanatic. She loves creating simple and usable interfaces and has a wonderfully keen eye for detail. She enjoys getting away from her Macbook Pro and going for a run in the countryside.</p>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                            </div>
+                        </div><!-- about_item -->
+                    </div><!-- span4 -->
+                    
+                </div><!-- End Row -->
+            </div><!-- End aboutwrap -->
+        </div><!-- End Container -->
+        
+        <!-- Studio Carousel and Quote -->
+        <div class="container">
+        <br>
+        <hr>
+        <br>
+            <div class="row">
+                <div class="span6">
+                    <div id="myCarousel" class="carousel slide">
                         <div class="carousel-inner">
-                            <!-- slide -->
-                            <div class="item slide1 active">
-                                <div class="row">
-                                    <div class="span12">
-                                        <img alt="slide1" src="img/And+Gaben+isn+t+Peter+_aae11ec1b123502bc3885edeffb15a17.jpg">
-                                    </div>
+                            <div class="item active">
+                            <img src="img/studio1.jpg" alt="">
+                            </div>
+                            <div class="item">
+                            <img src="img/studio2.jpg" alt="">
+                            </div>
+                            <div class="item">
+                            <img src="img/studio3.jpg" alt="">
+                            </div>
+                        </div>
+                        <a class="left carousel-control" href="#myCarousel" data-slide="prev">‹</a><!-- Carousel Control -->
+                        <a class="right carousel-control" href="#myCarousel" data-slide="next">›</a>
+                    </div><!-- myCarousel -->
+                </div><!-- span6 -->
+                
+                <div class="span6">
+                    <div id="aboutwrap">
+                        <h3>It's the little things...</h3>
+                        <h4>...that make all the difference. You know, the little details we all take for granted but if taken away feel like a massive gap?</h4>
+                        <h4>We're dedicated to our work and truly love what we do. The ultimate reward for us is to see our clients succeed.</h4>
+                    </div>
+                </div><!-- End span6 -->
+            </div><!-- End row -->
+            <br>
+        </div><!-- End Container -->
+
+    <!-- Project Section Begins -->
+        <section id="projects"></section>
+        
+        <div id="projectwrap">
+            <header class="clearfix">
+                <div class="container">
+                    <div class="span12">
+                        <div class="boxcolor">
+                        <h1>LATEST PROJECTS</h1>
+                        </div>
+                    </div><!-- span12 -->
+                </div><!-- container -->
+            </header>
+        </div><!-- projectwrap -->
+        
+        <div id="projectwrap_2">
+            <div class="container">
+            <br>
+            <br>
+            <h2>PROJECTS SHOTS</h2>
+                <div class="row">
+                    <br>
+                    <div class="span4">
+                        <div class="project_item">
+                            <div class="project_item_center">
+                                <div class="mask2">
+                                    <a href="img/pr01.jpg" rel="prettyPhoto"><img src="img/pr01.jpg" alt=""></a>
                                 </div>
-                            </div>
-                            <!-- slide -->
-                            <div class="item slide2">
-                                <div class="row">
-                                    <div class="span12 animated fadeInDownBig">
-                                        <img alt="slide2" src="img/lLHX3.jpg">
-                                    </div>
+                                <div class="clear"></div>
+                                <h3>Responsive Design</h3>
+                            </div><!-- project_item_center -->
+                        </div><!-- project_item -->
+                    </div><!-- span4 -->
+                    
+                    <div class="span4">
+                        <div class="project_item">
+                            <div class="project_item_center">
+                                <div class="mask2">
+                                    <a href="img/pr02.jpg" rel="prettyPhoto"><img src="img/pr02.jpg" alt=""></a>
                                 </div>
-                            </div>
-                            <!-- slide -->
-                            <div class="item slide3 animated fadeInUpBig">
-                                <img alt="slide3" src="img/gaben.jpg">
-                            </div>
-                        </div>
-                        <!-- Carousel nav -->
-                        <a data-slide="prev" href="#myCarousel" class="carousel-control left">‹</a>
-                        <a data-slide="next" href="#myCarousel" class="carousel-control right">›</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div id="intro">
-        <div class="container">
-            <h1>Measure is a beautiful Wrapbootstrap theme for 
-                businesses and creative professionals.</h1>
-        </div>
-    </div>
-
-    <!-- features -->
-    <div id="features">
-        <div class="container">
-            <!-- header -->
-            <h2 class="section_header">
-                <hr class="left visible-desktop">
-                <span>Features</span>
-                <hr class="right visible-desktop">
-            </h2>
-
-            <!-- feature list -->
-            <div class="row">
-                <div class="span4 feature">
-                    <img class="thumb" alt="feature1" src="img/feature1.jpg">
-                    <h3>
-                        <i class="i_cloud"></i> Responsive clean theme
-                    </h3>
-                    <p class="description">
-                        There are many variations of passages of Lorem Ipsum available, but the 
-                        majority have suffered alteration in some form, by injected humour, or randomised 
-                        words which don't look even slightly believable.
-                    </p>
-                    <a class="btn btn-default" href="#">more</a>
-                </div>
-                <div class="span4 feature">
-                    <img class="thumb" alt="feature2" src="img/feature2.jpg">
-                    <h3>
-                        <i class="i_chart"></i> Responsive clean theme
-                    </h3>
-                    <p class="description">
-                        There are many variations of passages of Lorem Ipsum available, but the 
-                        majority have suffered alteration in some form, by injected humour, or randomised 
-                        words which don't look even slightly believable.
-                    </p>
-                    <a class="btn btn-default" href="#">more</a>
-                </div>
-                <div class="span4 feature">
-                    <img class="thumb" alt="feature3" src="img/feature3.jpg">
-                    <h3>
-                        <i class="i_movil"></i> Responsive clean theme
-                    </h3>
-                    <p class="description">
-                        There are many variations of passages of Lorem Ipsum available, but the 
-                        majority have suffered alteration in some form, by injected humour, or randomised 
-                        words which don't look even slightly believable.
-                    </p>
-                    <a class="btn btn-default" href="#">more</a>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- starts pricing -->
-    <div id="pricing">
-        <div class="container">
-            <!-- header -->
-            <h2 class="section_header">
-                <hr class="left visible-desktop">
-                <span>
-                    Pricing 
-                    <small>
-                        See all plan details here</small>
-                </span>
-                <hr class="right visible-desktop">
-            </h2>
-
-            <!-- pricing charts -->
-            <div class="row">
-                <div class="span4">
-                    <div class="price_wrapper lite regular">
-                        <div class="header">
-                            <span>Lite</span>
-                            <div class="price">
-                                <span>$ 35</span>
-                                Per Month
-                            </div>
-                        </div>
-                        <div class="section">
-                            <h3>Passages of Lorem randomised
-                                words which look slightly.</h3>
-                            <ul class="perks">
-                                <li>
-                                    <i class="i_shuffle"></i>
-                                    Cross-browser
-                                </li>
-                                <li>
-                                    <i class="i_loading"></i>
-                                    Fast-loading
-                                </li>
-                            </ul>
-                            <a class="btn" href="#">Order now</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="span4">
-                    <div class="price_wrapper pro">
-                        <div class="header">
-                            <span>Pro</span>
-                            <div class="price">
-                                <span>$ 99</span>
-                                Per Month
-                            </div>
-                        </div>
-                        <div class="section">
-                            <h3>Passages of Lorem randomised
-                                words which look slightly.</h3>
-                            <ul class="perks">
-                                <li>
-                                    <i class="i_shuffle"></i>
-                                    Cross-browser
-                                </li>
-                                <li>
-                                    <i class="i_loading"></i>
-                                    Fast-loading
-                                </li>
-                                <li>
-                                    <i class="i_bookmark"></i>
-                                    Bookmarkable URLs
-                                </li>
-                                <li>
-                                    <i class="i_bars"></i>
-                                    W3C Standards
-                                </li>
-                            </ul>
-                            <a class="btn" href="#">Order now</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="span4">
-                    <div class="price_wrapper standard regular">
-                        <div class="header">
-                            <span>Standard</span>
-                            <div class="price">
-                                <span>$ 65</span>
-                                Per Month
-                            </div>
-                        </div>
-                        <div class="section">
-                            <h3>Passages of Lorem randomised
-                                words which look slightly.</h3>
-                            <ul class="perks">
-                                <li>
-                                    <i class="i_shuffle"></i>
-                                    Cross-browser
-                                </li>
-                                <li>
-                                    <i class="i_loading"></i>
-                                    Fast-loading
-                                </li>
-                                <li>
-                                    <i class="i_bookmark"></i>
-                                    Bookmarkable URLs
-                                </li>
-                            </ul>
-                            <a class="btn" href="#">Order now</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- starts testimonial -->
-    <div id="testimonials">
-        <div class="container">
-            <div class="controls">
+                                <div class="clear"></div>
+                                <h3>A Book Apart</h3>
+                            </div><!-- project_item_center -->
+                        </div><!-- project_item -->
+                    </div><!-- span4 -->
+                    
+                    <div class="span4">
+                        <div class="project_item">
+                            <div class="project_item_center">
+                                <div class="mask2">
+                                    <a href="img/pr03.jpg" rel="prettyPhoto"><img src="img/pr03.jpg" alt=""></a>
+                                </div>
+                                <div class="clear"></div>
+                                <h3>Number Four</h3>
+                            </div><!-- project_item_center -->
+                        </div><!-- project_item -->
+                    </div><!-- span4 -->
+                    
+                </div><!-- row -->
+                <br>
                 <hr>
-            </div>
-            <div class="phrases_wrapper">
-                <div class="phrase">
-                    <div class="row">
-                        <div class="span7">
-                            <p class="testimony">
-                                There are many variations of passages words which don't look even slightly passage of anything embarrassing hidden in the middle.
-                                <span>"</span>
-                            </p>
-                        </div>
-                        <div class="span3 offset1">
-                            <div class="pic">
-                                <img class="img-circle" alt="author" src="img/pic1.jpg">
-                                <span class="name">Alejandra Galvan Castillo</span>
-                                <span class="position">Bootstrap wizard</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- starts footer -->
-    <div id="footer">
+            </div><!-- container -->
+        </div><!-- projectwrap2 -->
+        
+    <!-- Clients Logo -->       
         <div class="container">
             <div class="row">
-                <div class="span8">
-                    <h3>From the Blog</h3>
-                    <div class="blog_post">
-                        <div class="row">
-                            <div class="span2">
-                                <a href="blog.html">
-                                    <img class="img-circle" alt="post image" src="img/pic_blog.png">
-                                </a>
-                            </div>
-                            <div class="span4">
-                                <a class="title" href="blog.html">
-                                    Lorem Ipsum is simply dummy 
-                                </a>
-                                <div class="intro">
-                                    There are many variations of passages of Lorem alteration in some form by injected look even slightly believable.
-                                </div>
-                                <div class="date">
-                                    Oct 22. 2012
-                                </div>
-                            </div>
-                        </div>
+                <div class="clients">
+                    <h2>Some of our amazing customers</h2>
+                    <div class="span1"></div>
+                    <div class="span2">
+                        <img src="img/clients/cnet.png" alt="">
                     </div>
-                </div>
-                <div class="span4 contact_us">
-                    <h3>Contact Us</h3>
-                    <form class="form-horizontal">
-                        <div class="field">
-                            <div class="label_field">
-                                <label for="inputName">Name</label>
-                            </div>
-                            <input type="text" id="inputName">
-                        </div>
+                    <div class="span2">
+                        <img src="img/clients/billboard.png" alt="">
+                    </div>
+                    <div class="span2">
+                        <img src="img/clients/mashable.png" alt="">
+                    </div>
+                    <div class="span2">
+                        <img src="img/clients/techcrunch.png" alt="">
+                    </div>
+                    <div class="span2">
+                        <img src="img/clients/variety.png" alt="">
+                    </div>
+                    <div class="span1"></div>
+                </div><!-- clients -->
+            </div><!-- row -->
+                <br>
+                <br>
+                <br>
+        </div><!-- container -->
 
-                        <div class="field">
-                            <div class="label_field">
-                                <label for="inputEmail">Email</label>
+    <!-- Portfolio Carousel -->
+        <div id="example">
+            <div class="container">
+                <div class="row">
+                    <div class="span2"></div>
+                    <div class="span8">
+                        <br>
+                        <h2>A small look at our work</h2>
+                        <div id="myCarousel2" class="carousel slide">
+                            <div class="carousel-inner">
+                                <div class="item">
+                                <img src="img/mac01.png" alt="">
+                                </div>
+                                <div class="item">
+                                <img src="img/mac02.png" alt="">
+                                </div>
+                                <div class="item active">
+                                <img src="img/mac03.png" alt="">
+                                </div>
                             </div>
-                            <input type="text" id="inputEmail">
-                        </div>
+                            <a class="left carousel-control" href="#myCarousel2" data-slide="prev">‹</a>
+                            <a class="right carousel-control" href="#myCarousel2" data-slide="next">›</a>
+                        </div><!-- myCarousel2 -->
+                    </div><!-- span8 -->
+                    <div class="span2"></div>
+                </div><!-- row -->
+            </div><!-- container -->
+        </div><!-- example -->
+        
+    <!-- Price Tables -->
+        <div id="pricewrap">
+            <div class="container">
+            <br>
+                <div class="span12">
+                <h2>See our prices and compare!</h2>
+                    <div class="pricing-table-wrapper">
+                        <div class="pricing-table row-fluid">
+                            <ul class="pricing-column span2">
+                                <li class="pricing-title">Beginner</li>
+                                <li class="pricing-price">$20 <span>/month</span>
+                                </li>
+                                <li>Yes</li>
+                                <li>Yes</li>
+                                <li>Yes</li>
+                                <li>No</li>
+                                <li>No</li>
+                                <li class="pricing-button">
+                                    <a class="button" href="#">Sign Up</a>
+                                </li>
+                            </ul>
+                        
+                            <ul class="pricing-column span2">
+                                <li class="pricing-title">Beginner</li>
+                                <li class="pricing-price">$20 <span>/month</span>
+                                </li>
+                                <li>5,000MB Storage</li>
+                                <li>1TB Bandwidth</li>
+                                <li>Technical support</li>
+                                <li>cPanel &amp; MySQL</li>
+                                <li>99% uptime</li>
+                                <li class="pricing-button">
+                                    <a class="button" href="#">Sign Up</a>
+                                </li>
+                            </ul>
+                        
+                            <ul class="pricing-column span3">
+                                <li class="pricing-title">Special Offer!</li>
+                                <li class="pricing-price">$50 <span>/month</span>
+                                </li>
+                                <li>50,000MB Storage</li>
+                                <li>5TB Bandwidth</li>
+                                <li>Technical support</li>
+                                <li>cPanel &amp; MySQL</li>
+                                <li>100% uptime</li>
+                                <li class="pricing-button">
+                                    <a class="button" href="#">Sign Up</a>
+                                </li>
+                            </ul>
+                        
+                            <ul class="pricing-column span5">
+                                <li class="pricing-title">Special Offer!</li>
+                                <li class="pricing-price">$100 <span>/month</span>
+                                </li>
+                                <li>Unlimited Storage</li>
+                                <li>Unlimited Bandwidth</li>
+                                <li>Technical support</li>
+                                <li>cPanel &amp; MySQL</li>
+                                <li>100% uptime</li>
+                                <li class="pricing-button">
+                                    <a class="button" href="#">Sign Up</a>
+                                </li>
+                            </ul>
+                        </div><!-- Pricing-Table Row Fluid -->
+                    </div><!-- Pricing-Table-Wraper -->             
+                </div><!-- Span12 -->
+            </div><!-- Container -->
+            <br>
+            <br>
+        </div><!-- PriceWrap -->
+        
+    <!-- Contact Section Begins -->
+        <section id="contact"><br><br></section>
 
-                        <div class="field">
-                            <div class="label_field">
-                                <label for="inputCity">City</label>
-                            </div>
-                            <input type="text" id="inputCity">
+        <div id="footerwrap">
+            <div class="container">
+            <br>
+            <h2>CONTACT</h2>
+                <div class="row">
+                    <div class="span4">
+                        <img src="img/logo_small.png" alt="">
+                        <h3>Where in the world is Simple &amp; Flat?</h3>
+                        <h4>Some Street 927</h4>
+                        <h4>Zip Code 88376</h4>
+                        <h4>Madrid, Spaing</h4>
+                        <h4>hello@domain.com</h4>
+                    </div><!-- span4 -->
+                    
+                    <div class="span4">
+                        <img src="img/twitter.png" alt="">
+                        <div id="jstwitter" class="clearfix">
+                        <p id="twitter_update_list"><li><span>Just added: The Stapler - One Page Business Theme! <a href="https://t.co/uXUDA3ggKc">https://t.co/uXUDA3ggKc</a></span> <a style="font-size:85%" href="http://twitter.com/wrapbootstrap/statuses/309022498358452224">1 day ago</a></li></p>
                         </div>
+                        <script type="text/javascript" src="http://twitter.com/javascripts/blogger.js"></script><!-- Script Needed to load the Tweets -->
+                        <script type="text/javascript" src="http://api.twitter.com/1/statuses/user_timeline/wrapbootstrap.json?callback=twitterCallback2&amp;count=1"></script>
+                        <h4>Update by @WrapBootstrap</h4>
+                    </div><!-- span4 -->
+                    
+                    <div class="span4">
+                        <img src="img/face.jpg" alt="" class="img-circle">
+                        <h4>Thanks for visiting us!</h4>
+                        <h4>I hope we can work together in the future. See you soon.</h4>
+                    </div><!-- span4 -->
 
-                        <div class="field">
-                            <div class="label_field">
-                                <label for="inputComment">Comments</label>
-                            </div>
-                            <textarea name="comments"></textarea>
-                        </div>
-                        <button class="btn" type="submit">Send</button>
-                    </form>
-                </div>
-            </div>
-            <hr>
-            <div class="row copyright">
-                <div class="span5">
-                    <h3>Social</h3>
-                    <a class="social fb" href="#">
-                        <i class="i_facebook"></i>
-                    </a>
-                    <a class="social tw" href="#">
-                        <i class="i_twitter"></i>
-                    </a>
-                    <a class="social yt" href="#">
-                        <i class="i_youtube"></i>
-                    </a>
-                </div>
-                <div class="span2 offset5 copy">
-                    <p>2012 - Measure Template</p>
-                </div>
-            </div>
-        </div>
-    </div>
+                </div><!-- row -->
+            </div><!-- container -->
+        </div><!-- footerwrap -->
 
-    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <!-- Bottom Map -->
+        <div id="map"><iframe marginheight="0" marginwidth="0" src="https://maps.google.com/maps?ie=UTF8&amp;q=las+tablas,+madrid&amp;fb=1&amp;hq=las+tablas,&amp;hnear=0xd42287d383766c9:0xad469cc0ed50997d,Madrid,+Espa%C3%B1a&amp;cid=0,0,15011046097507982567&amp;t=m&amp;iwloc=A&amp;ll=40.421889,-3.713523&amp;spn=0.006295,0.006295&amp;output=embed" scrolling="no" frameborder="0" height="500" width="100%"></iframe></div>
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
+    <script type="text/javascript" src="js/theme.js"></script>
+
 
 </body>
 </html>
