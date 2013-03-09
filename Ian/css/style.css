@@ -1,0 +1,520 @@
+
+@font-face {
+    font-family: "WalkwayUltraBoldRegular";
+    font-style: normal;
+    font-weight: normal;
+    src: url("Walkway/Walkway_UltraBold-webfont.eot?#iefix") format("embedded-opentype"), url("Walkway/Walkway_UltraBold-webfont.woff") format("woff"), url("Walkway/Walkway_UltraBold-webfont.ttf") format("truetype"), url("Walkway/Walkway_UltraBold-webfont.svg#WalkwayUltraBoldRegular") format("svg");
+}
+@font-face {
+    font-family: "WalkwayObliqueUltraBoldRg";
+    font-style: normal;
+    font-weight: normal;
+    src: url("Walkway/Walkway_Oblique_UltraBold-webfont.eot?#iefix") format("embedded-opentype"), url("Walkway/Walkway_Oblique_UltraBold-webfont.woff") format("woff"), url("Walkway/Walkway_Oblique_UltraBold-webfont.ttf") format("truetype"), url("Walkway/Walkway_Oblique_UltraBold-webfont.svg#WalkwayObliqueUltraBoldRg") format("svg");
+}
+@font-face {
+    font-family: "SourceSansProRegular";
+    font-style: normal;
+    font-weight: normal;
+    src: url("source-sans-pro/SourceSansPro-Regular-webfont.eot?#iefix") format("embedded-opentype"), url("source-sans-pro/SourceSansPro-Regular-webfont.woff") format("woff"), url("source-sans-pro/SourceSansPro-Regular-webfont.ttf") format("truetype"), url("source-sans-pro/SourceSansPro-Regular-webfont.svg#SourceSansProRegular") format("svg");
+}
+@font-face {
+    font-family: "SourceSansProItalic";
+    font-style: normal;
+    font-weight: normal;
+    src: url("source-sans-pro/SourceSansPro-It-webfont.eot?#iefix") format("embedded-opentype"), url("source-sans-pro/SourceSansPro-It-webfont.woff") format("woff"), url("source-sans-pro/SourceSansPro-It-webfont.ttf") format("truetype"), url("source-sans-pro/SourceSansPro-It-webfont.svg#SourceSansProItalic") format("svg");
+}
+
+@font-face {
+    font-family: "Kelly Slab";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Kelly Slab"), local("KellySlab-Regular"), url("http://themes.googleusercontent.com/static/fonts/kellyslab/v3/4A8U9DtmhklTRFOO_fzgaBsxEYwM7FgeyaSgU71cLG0.woff") format("woff");
+}
+
+*::-moz-selection {
+    background: none repeat scroll 0 0 #3ABEB4;
+    color: #FFFFFF;
+}
+body {
+    font-family: "SourceSansProRegular";
+}
+body a {
+    transition: color 0.3s ease 0s;
+}
+.TitleSection {
+    margin-bottom: 40px;
+    text-align: center;
+}
+.TitleSection h1 {
+    font-family: 'Kelly Slab',cursive !important;
+    font-size: 50px;
+    text-shadow: 2px 1px 0 #444445;
+}
+.TitleSection span {
+    background: none repeat scroll 0 0 #3ABEB4;
+    border-radius: 3px 3px 3px 3px;
+    color: #FFFFFF;
+    font-size: 30px;
+    padding: 5px;
+    text-shadow: 1px 1px 0 #1F7A71 !important;
+}
+h1, h2, h3 {
+    font-family: 'WalkwayObliqueUltraBoldRg';
+    font-size: 35px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+h2 {
+    font-size: 24px;
+    margin: 5px 0;
+}
+h3 {
+    font-size: 17px;
+    margin: 2px 0;
+}
+p {
+    font-size: 17px !important;
+    letter-spacing: 0;
+    line-height: 23px;
+    margin: 0 0 10px;
+    text-align: justify;
+}
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+.intro {
+    background: url("../images/firstBG.jpg") no-repeat fixed 50% -75px transparent;
+    color: white;
+    margin: 0 auto;
+    padding: 130px 0 40px;
+    z-index: -1;
+}
+.intro p {
+    font-size: 20px;
+    line-height: 35px;
+    margin: 15px 0;
+    text-align: center;
+}
+.About {
+    background: url("../images/groovepaper.png") repeat fixed 50% 0 transparent;
+    color: #575757;
+    overflow: hidden;
+    padding: 85px 0 100px;
+    z-index: -1;
+}
+.Services {
+    background: url("../images/subtle_freckles.png") repeat fixed 50% 0 #FFFFFF;
+    color: #575757;
+    padding: 85px 0 100px;
+    z-index: 2;
+}
+.Portfolio {
+    background: url("../images/grilled.png") repeat fixed 50% 0 transparent;
+    color: #575757;
+    padding: 85px 0 100px;
+    z-index: 2;
+}
+.LargeSlider {
+    background: url("../images/daimond_eyes.png") repeat fixed 50% 0 transparent;
+    color: #575757;
+    overflow: hidden;
+    z-index: 2;
+}
+.Contact {
+    background: url("../images/clean_textile.png") repeat fixed 50% 0 transparent;
+    color: #575757;
+    overflow: hidden;
+    padding: 85px 0 100px;
+    z-index: 2;
+}
+.Social {
+    height: 40px;
+    margin: 10px 23% !important;
+}
+ul.Social li {
+    float: left;
+    height: 40px;
+    margin: 0 5px;
+    width: 32px;
+}
+ul.Social li a {
+    display: block;
+    float: left;
+    height: 40px;
+    opacity: 0.7;
+    text-indent: -9999px;
+    width: 32px;
+}
+ul.Social li a:hover {
+    opacity: 1;
+}
+.Rss {
+    background: url("../icon/social/rss.png") no-repeat scroll 0 6px transparent;
+}
+.Facebook {
+    background: url("../icon/social/facebook.png") no-repeat scroll 0 6px transparent;
+}
+.Twitter {
+    background: url("../icon/social/twitter.png") no-repeat scroll 0 6px transparent;
+}
+.Dribbble {
+    background: url("../icon/social/dribbble.png") no-repeat scroll 0 6px transparent;
+}
+.YouTube {
+    background: url("../icon/social/youtube.png") no-repeat scroll 0 6px transparent;
+}
+.Pinterest {
+    background: url("../icon/social/pinterest.png") no-repeat scroll 0 6px transparent;
+}
+.Behance {
+    background: url("../icon/social/behance.png") no-repeat scroll 0 6px transparent;
+}
+.Googleplus {
+    background: url("../icon/social/googleplus.png") no-repeat scroll 0 6px transparent;
+}
+.Forrst {
+    background: url("../icon/social/forrst.png") no-repeat scroll 0 6px transparent;
+}
+.Instagram {
+    background: url("../icon/social/instagram.png") no-repeat scroll 0 6px transparent;
+}
+.Deviantart {
+    background: url("../icon/social/deviantart.png") no-repeat scroll 0 6px transparent;
+}
+.Soundcloud {
+    background: url("../icon/social/soundcloud.png") no-repeat scroll 0 6px transparent;
+}
+.Wordpress {
+    background: url("../icon/social/wordpress.png") no-repeat scroll 0 6px transparent;
+}
+.Picasa {
+    background: url("../icon/social/picasa.png") no-repeat scroll 0 6px transparent;
+}
+.Team {
+    margin: 10px 5%;
+    text-align: center;
+}
+.Team p {
+    text-align: center;
+}
+.Team h2 {
+    margin-bottom: -15px;
+}
+.Team h3 {
+    color: #888888;
+    font-size: 15px;
+}
+.round-thumb-container {
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+.round-thumb {
+    border: 3px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.4) inset;
+    margin: 0 auto 10px;
+    overflow: hidden;
+    position: relative;
+}
+.round-thumb span {
+    float: left;
+    width: 100%;
+}
+.round-thumb, .round-thumb span, .round-thumb span img {
+    border-radius: 250px 250px 250px 250px;
+    max-width: 250px;
+    overflow: hidden;
+}
+.round-thumb span img {
+    margin: 0 auto;
+    max-width: 100%;
+    overflow: hidden;
+    position: relative;
+    z-index: -1;
+}
+#filter {
+    display: block;
+    margin: 55px auto;
+    text-align: center;
+}
+#filter a {
+    color: #666666;
+    display: inline-block;
+    height: 39px;
+    line-height: 37px;
+    margin: 0 15px;
+    padding: 0 15px;
+    text-decoration: none;
+    text-shadow: 1px 1px 0 #FFFFFF;
+}
+#filter a:hover {
+    text-decoration: underline;
+}
+#filter a.active {
+    background-color: #3ABEB4;
+    box-shadow: 1px 0 0 rgba(255, 255, 255, 0.2), -1px 0 0 rgba(255, 255, 255, 0.2), 1px 0 1px rgba(0, 0, 0, 0.2) inset, -1px 0 1px rgba(0, 0, 0, 0.2) inset;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 1px #06666D;
+}
+#container {
+    display: block;
+    margin: 0 auto;
+    overflow: hidden;
+}
+#container li {
+    border-bottom: 1px solid #CCCCCC;
+    float: left;
+    height: 240px;
+    list-style: none outside none;
+    margin: 25px 19px 20px;
+    position: relative;
+    width: 190px;
+}
+#container li:hover {
+    border-bottom: 1px solid #3ABEB4;
+}
+#container li > div {
+    float: left;
+}
+#container li > div > p, #container li > div > h4 {
+    text-shadow: 1px 1px 0 #FFFFFF;
+}
+#container li img {
+    height: 150px;
+    width: 150px;
+}
+#container li img:hover {
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.3);
+}
+#container ul.hidden {
+    display: none;
+}
+.filter-thumb-container {
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+.filter-thumb {
+    box-shadow: 0 0 0 7px rgba(255, 255, 255, 0.4) inset;
+    overflow: hidden;
+    position: relative;
+}
+.filter-thumb span {
+    float: left;
+    width: 100%;
+}
+.filter-thumb, .filter-thumb span, .filter-thumb span img {
+    border-radius: 250px 250px 250px 250px;
+    max-width: 250px;
+    overflow: hidden;
+}
+.filter-thumb span img {
+    margin: 0 auto;
+    max-width: 100%;
+    overflow: hidden;
+    position: relative;
+    z-index: -1;
+}
+@font-face {
+    font-family: "WebSymbolsRegular";
+    font-style: normal;
+    font-weight: normal;
+    src: url("websymbols/websymbols-regular-webfont.eot?#iefix") format("embedded-opentype"), url("websymbols/websymbols-regular-webfont.woff") format("woff"), url("websymbols/websymbols-regular-webfont.ttf") format("truetype"), url("websymbols/websymbols-regular-webfont.svg#WebSymbolsRegular") format("svg");
+}
+.ca-menu {
+    background: none repeat scroll 0 0 #FFFFFF;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    font-family: 'Kelly Slab',cursive !important;
+    margin: 20px auto;
+    padding: 0;
+}
+.ca-menu h1, .ca-menu h2 {
+    font-family: 'Kelly Slab',cursive !important;
+}
+.ca-menu div {
+    display: block;
+    overflow: hidden;
+    position: relative;
+    transition: all 300ms ease-in-out 0s;
+}
+.ca-menu div a {
+    color: #575757;
+    display: block;
+    height: 100%;
+    position: relative;
+    text-align: left;
+    width: 100%;
+}
+.ca-icon {
+    color: #575757;
+    font-family: 'WebSymbolsRegular',cursive;
+    font-size: 60px;
+    left: 20px;
+    line-height: 90px;
+    position: absolute;
+    text-align: center;
+    text-shadow: 0 0 1px #333333;
+    transition: all 300ms linear 0s;
+    width: 90px;
+}
+.ca-content {
+    left: 120px;
+    position: absolute;
+    top: 0;
+}
+.ca-content h2 {
+    line-height: 25px;
+    margin-top: 23px;
+    width: 70%;
+}
+.ca-content h3 {
+    line-height: 27px;
+    margin-bottom: 15px;
+    width: 75%;
+}
+.ca-main {
+    font-size: 25px;
+    transition: all 300ms linear 0s;
+}
+.ca-menu:hover {
+    background: none repeat scroll 0 0 #3ABEB4;
+}
+.ca-menu a:hover {
+    background: none repeat scroll 0 0 #3ABEB4;
+}
+.ca-sub {
+    color: #666666;
+    font-size: 14px;
+}
+.ca-menu div:hover .ca-icon {
+    color: #FFFFFF;
+    font-size: 120px;
+    left: -20px;
+    opacity: 0.3;
+    text-shadow: 1px 1px 0 #1F7A71 !important;
+    transform: rotate(20deg);
+}
+.ca-menu div:hover .ca-main {
+    color: #FFFFFF;
+    opacity: 0.9;
+    text-shadow: 1px 1px 0 #1F7A71 !important;
+}
+.ca-menu div:hover .ca-sub {
+    color: #FFFFFF;
+    opacity: 0.8;
+    text-shadow: 1px 1px 0 #1F7A71 !important;
+}
+.PricingTables {
+    cursor: pointer;
+    margin: 25px 0 0;
+    padding: 0;
+}
+.PricingTables p {
+    margin: 10px 0;
+    padding: 0 10px;
+    text-align: center;
+}
+.PricingTables p span {
+    padding: 10px 15px;
+}
+.PricingTables ul {
+    border-top: 1px dotted #D6D6D6;
+    margin: 10px auto;
+    padding: 5px 0;
+}
+.PricingTables ul li {
+    border-bottom: 1px dotted #D6D6D6;
+    padding: 10px 15px;
+}
+.PricingTables ul li:hover {
+    border-bottom: 1px dotted #52CDBF;
+}
+.PricingTables i {
+    margin: 0 5px 0 0;
+}
+.PricingTables h2 {
+    background: none repeat scroll 0 0 #52CDBF;
+    border-bottom: 1px dashed #FFFFFF;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 10px 0;
+    text-align: center;
+}
+.PricingTables h3 {
+    background: none repeat scroll 0 0 #62DBCB;
+    border-bottom: 1px dashed #FFFFFF;
+    color: #FFFFFF;
+    margin: 0;
+    text-align: center;
+}
+a.btn, button.btn {
+    background: none repeat scroll 0 0 #52CDBF;
+    color: #FFFFFF;
+    margin: 25px 0;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+a.btn:hover, button.btn:hover {
+    background: none repeat scroll 0 0 #62DBCB;
+    color: #FFFFFF;
+}
+.Standard:hover {
+    position: relative;
+    top: -3px;
+}
+.Professional:hover {
+    position: relative;
+    top: -3px;
+}
+.Premium:hover {
+    position: relative;
+    top: -3px;
+}
+.Special {
+    color: #52CDBF;
+    text-shadow: 1px 1px 1px #FFFFFF;
+}
+#toTop {
+    background: url("../images/backtotop.png") no-repeat scroll center center #E9E9E9;
+    bottom: 10px;
+    color: #333333;
+    cursor: pointer;
+    display: none;
+    height: 30px;
+    position: fixed;
+    right: 5px;
+    text-align: center;
+    text-indent: -9999px;
+    width: 30px;
+    z-index: 500;
+}
+#toTop:hover {
+    opacity: 0.7;
+}
+.Footer {
+    background: none repeat scroll 0 0 #252525;
+    text-align: center;
+}
+.Footer a.brand {
+    clear: both;
+    color: #EEEEEE;
+    display: block;
+    font-family: 'Kelly Slab',cursive;
+    font-size: 35px;
+    font-weight: lighter;
+    margin: 10px 0 6px;
+    padding: 24px 0 16px;
+    text-shadow: 2px 1px 0 #000000;
+    text-transform: uppercase;
+}
+.Footer a.brand:hover {
+    text-decoration: none;
+}
+.Footer .Social {
+    margin: 55px 23% 20px !important;
+}
+.Footer p {
+    color: #F8F8F8;
+    margin: 10px auto;
+    text-align: center;
+}

@@ -1,0 +1,209 @@
+
+.Parallax h2 {
+    background-color: #000000;
+    display: inline;
+    font-family: 'Kelly Slab',cursive !important;
+    font-size: 2.5em !important;
+    line-height: 1.4em !important;
+    opacity: 0.7;
+    padding: 15px;
+    text-shadow: 9px 9px 0 #000000;
+}
+.Parallax h2 span {
+    font-size: 0.8em;
+    font-weight: lighter;
+}
+.Parallax blockquote {
+    background: none repeat scroll 0 0 #000000;
+    border: medium none !important;
+    display: inline-block;
+    font-family: 'Kelly Slab',cursive !important;
+    font-size: 1.1em !important;
+    margin-top: 40px !important;
+    opacity: 0.7;
+    padding: 15px !important;
+}
+.Parallax .ParallaxText {
+    position: relative;
+    text-align: center;
+    z-index: 250;
+}
+.Parallax .ParallaxText p {
+    background: none repeat scroll 0 0 #000000;
+    display: inline;
+    font-family: 'Kelly Slab',cursive !important;
+    opacity: 0.7;
+    padding: 15px;
+    text-align: center !important;
+}
+#header, #intro, #second, #third, #fourth, #fifth {
+    width: 100%;
+}
+#intro {
+    background: url("../images/Intro.jpg") no-repeat fixed 50% 50% transparent !important;
+    color: white;
+    height: 500px;
+    margin: 0 auto;
+    padding: 150px 0 40px;
+}
+#second {
+    background: url("../images/second.jpg") no-repeat fixed 50% 50% transparent !important;
+    color: white;
+    height: 500px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 150px 0 40px;
+}
+#third {
+    background: url("../images/third.jpg") no-repeat fixed 50% 50% transparent !important;
+    color: white;
+    height: 500px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 150px 0 40px;
+}
+#fourth {
+    background: url("../images/fourth.jpg") no-repeat fixed 50% 50% transparent !important;
+    color: white;
+    height: 500px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 150px 0 40px;
+}
+#fifth {
+    background: url("../images/fifth.jpg") no-repeat fixed 50% 50% transparent !important;
+    color: white;
+    height: 500px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 150px 0 40px;
+}
+#intro {
+    background: url("../images/Intro.jpg") no-repeat fixed 50% 50% transparent !important;
+}
+#second {
+    background: url("../images/second.jpg") no-repeat fixed 50% 50% transparent !important;
+}
+#third {
+    background: url("../images/third.jpg") no-repeat fixed 50% 50% transparent !important;
+}
+#fourth {
+    background: url("../images/fourth.jpg") no-repeat fixed 50% 50% transparent !important;
+}
+#fifth {
+    background: url("../images/fifth.jpg") no-repeat fixed 50% 50% transparent !important;
+}
+.cb-slideshow li div h3 {
+    font-size: 25px !important;
+    line-height: 30px !important;
+}
+#intro {
+    background: url("../images/Intro.jpg") no-repeat fixed 50% 50% transparent !important;
+}
+#second {
+    background: url("../images/second.jpg") no-repeat fixed 50% 50% transparent !important;
+}
+#third {
+    background: url("../images/third.jpg") no-repeat fixed 50% 50% transparent !important;
+}
+#fourth {
+    background: url("../images/fourth.jpg") no-repeat fixed 50% 50% transparent !important;
+}
+#fifth {
+    background: url("../images/fifth.jpg") no-repeat fixed 50% 50% transparent !important;
+}
+.cb-slideshow li div h3 {
+    font-size: 25px !important;
+    line-height: 30px !important;
+}
+#intro {
+    background: url("../images/Intro.jpg") no-repeat fixed 50% 50% transparent !important;
+}
+#second {
+    background: url("../images/second.jpg") no-repeat fixed 50% 50% transparent !important;
+}
+#third {
+    background: url("../images/third.jpg") no-repeat fixed 50% 50% transparent !important;
+}
+#fourth {
+    background: url("../images/fourth.jpg") no-repeat fixed 50% 50% transparent !important;
+}
+#fifth {
+    background: url("../images/fifth.jpg") no-repeat fixed 50% 50% transparent !important;
+}
+.cb-slideshow li div h3 {
+    font-size: 25px !important;
+    line-height: 30px !important;
+}
+#intro {
+    background: url("../images/Intro.jpg") no-repeat fixed 50% 50% transparent !important;
+}
+#second {
+    background: url("../images/second.jpg") no-repeat fixed 50% 50% transparent !important;
+}
+#third {
+    background: url("../images/third.jpg") no-repeat fixed 50% 50% transparent !important;
+}
+#fourth {
+    background: url("../images/fourth.jpg") no-repeat fixed 50% 50% transparent !important;
+}
+#fifth {
+    background: url("../images/fifth.jpg") no-repeat fixed 50% 50% transparent !important;
+}
+.cb-slideshow li div h3 {
+    font-size: 30px !important;
+    line-height: 35px !important;
+}
+#intro {
+    background: url("../images/Intro.jpg") no-repeat fixed 50% 50% transparent !important;
+}
+#second {
+    background: url("../images/second.jpg") no-repeat fixed 50% 50% transparent !important;
+}
+#third {
+    background: url("../images/third.jpg") no-repeat fixed 50% 50% transparent !important;
+}
+#fourth {
+    background: url("../images/fourth.jpg") no-repeat fixed 50% 50% transparent !important;
+}
+#fifth {
+    background: url("../images/fifth.jpg") no-repeat fixed 50% 50% transparent !important;
+}
+#intro {
+    background: url("../images/Intro.jpg") no-repeat fixed 50% 50% transparent !important;
+}
+#second {
+    background: url("../images/second.jpg") no-repeat fixed 50% 50% transparent !important;
+}
+#third {
+    background: url("../images/third.jpg") no-repeat fixed 50% 50% transparent !important;
+}
+#fourth {
+    background: url("../images/fourth.jpg") no-repeat fixed 50% 50% transparent !important;
+}
+#fifth {
+    background: url("../images/fifth.jpg") no-repeat fixed 50% 50% transparent !important;
+}
+.cb-slideshow li div h3 {
+    font-size: 35px !important;
+    line-height: 40px !important;
+}
+#intro {
+    background: url("../images/Intro.jpg") no-repeat fixed 50% 50% transparent !important;
+}
+#second {
+    background: url("../images/second.jpg") no-repeat fixed 50% 50% transparent !important;
+}
+#third {
+    background: url("../images/third.jpg") no-repeat fixed 50% 50% transparent !important;
+}
+#fourth {
+    background: url("../images/fourth.jpg") no-repeat fixed 50% 50% transparent !important;
+}
+#fifth {
+    background: url("../images/fifth.jpg") no-repeat fixed 50% 50% transparent !important;
+}
+.cb-slideshow li div h3 {
+    font-size: 35px !important;
+    line-height: 40px !important;
+}
